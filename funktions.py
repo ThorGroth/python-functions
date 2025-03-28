@@ -4,12 +4,20 @@ def greet():
 
 greet()
 
-# some other code
-print("other code1")
+name1 = "Thor"
+name2 = "Joel"
+list_of_names = ["Katja", "Olga", "Tim"]
 
-greet()
+for name in list_of_names:
+    print("Hello, ", name)
+    print("end of the greet function")
 
-# some other code
-print("other code2")
+def greet_person():
+    print("Hello, ", name)
 
-greet()
+
+
+for name in list_of_names:
+        greet_person(name)
+
+
